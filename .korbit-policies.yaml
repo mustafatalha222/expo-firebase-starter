@@ -23,7 +23,9 @@ topics:
       - "**/.env*"
       - ".gitignore"
       - "**/.gitignore"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Prefer Expo for Rapid Development and Prototyping
         description: |
@@ -224,7 +226,9 @@ topics:
       - "**/routes/**/*.{js,ts,tsx}"
       - "**/*.navigation.{js,ts,tsx}"
       - "**/*.route.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Use React Navigation as the Standard Navigator
         description: |
@@ -347,7 +351,9 @@ topics:
       - "**/theme/**/*.{js,ts,tsx}"
       - "**/styles/**/*.{js,ts,tsx}"
       - "**/design/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Use Centralized Theme Object
         description: |
@@ -508,7 +514,9 @@ topics:
       - "**/src/components/**/*.{js,ts,tsx}"
       - "**/ui/**/*.{js,ts,tsx}"
       - "**/src/ui/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Use React.memo for Pure Functional Components
         description: |
@@ -619,7 +627,9 @@ topics:
       - "**/api/**/*.{js,ts,tsx}"
       - "**/utils/**/*.{js,ts,tsx}"
       - "**/helpers/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Never Store Sensitive Data in AsyncStorage
         description: |
@@ -714,7 +724,9 @@ topics:
       - "**/store/**/*.{js,ts,tsx}"
       - "**/hooks/**/*.{js,ts,tsx}"
       - "**/state/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Use Redux Offline or React Query for Offline Caching
         description: |
@@ -841,7 +853,9 @@ topics:
       - "ios/**/*.{js,ts,tsx,m,mm,swift}"
       - "android/**/*.{js,ts,tsx,java,kt}"
       - "**/native/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Access Platform APIs via React Native Modules First
         description: |
@@ -941,7 +955,9 @@ topics:
       - "**/tests/**/*.{js,ts,tsx}"
       - "**/e2e/**/*.{js,ts,tsx}"
       - "**/test/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Write Unit Tests for All Pure Functions
         description: |
@@ -1201,7 +1217,9 @@ topics:
     paths:
       - "**/components/**/*.{js,ts,tsx}"
       - "**/ui/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Use Accessible Touch Targets
         description: |
@@ -1333,7 +1351,9 @@ topics:
       - "**/locales/**/*.{js,ts,tsx}"
       - "**/translations/**/*.{js,ts,tsx}"
       - "**/lang/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Avoid Hardcoded Strings in UI
         description: |
@@ -1458,7 +1478,9 @@ topics:
     paths:
       - "**/components/**/*.{js,ts,tsx}"
       - "**/ui/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Use Reanimated for High-Performance Animations
         description: |
@@ -1551,7 +1573,9 @@ topics:
       - "**/services/**/*.{js,ts,tsx}"
       - "**/utils/**/*.{js,ts,tsx}"
       - "**/helpers/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Always Catch Promises and Async/Await Blocks
         description: |
@@ -1739,7 +1763,9 @@ topics:
 
   - name: "Code Quality & Maintainability"
     paths:
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
       - ".eslintrc.{js,json}"
       - "**/.eslintrc.{js,json}"
       - ".prettierrc"
@@ -1864,7 +1890,9 @@ topics:
 
   - name: "Documentation & Storybook"
     paths:
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
       - "README.md"
       - "**/docs/**/*.{md,js,ts}"
       - "**/stories/**/*.{js,ts,tsx}"
@@ -1983,7 +2011,9 @@ topics:
       - "**/services/**/*.{js,ts,tsx}"
       - "**/hooks/**/*.{js,ts,tsx}"
       - "**/analytics/**/*.{js,ts,tsx}"
-      - "**/*.{js,ts,tsx}"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.tsx"
     policies:
       - title: Track Screen Views Using Navigation Events
         description: |
