@@ -510,10 +510,6 @@ topics:
 
   - name: "Performance Optimization"
     paths:
-      - "**/components/**/*.{js,ts,tsx}"
-      - "**/src/components/**/*.{js,ts,tsx}"
-      - "**/ui/**/*.{js,ts,tsx}"
-      - "**/src/ui/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -623,10 +619,6 @@ topics:
 
   - name: "Security & Data Protection"
     paths:
-      - "**/services/**/*.{js,ts,tsx}"
-      - "**/api/**/*.{js,ts,tsx}"
-      - "**/utils/**/*.{js,ts,tsx}"
-      - "**/helpers/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -721,9 +713,6 @@ topics:
 
   - name: "Offline Support & Data Sync"
     paths:
-      - "**/store/**/*.{js,ts,tsx}"
-      - "**/hooks/**/*.{js,ts,tsx}"
-      - "**/state/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -950,11 +939,6 @@ topics:
 
   - name: "Testing Strategy (Unit & E2E)"
     paths:
-      - "**/*.test.{js,ts,tsx}"
-      - "**/*.spec.{js,ts,tsx}"
-      - "**/tests/**/*.{js,ts,tsx}"
-      - "**/e2e/**/*.{js,ts,tsx}"
-      - "**/test/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -1215,8 +1199,6 @@ topics:
 
   - name: "Accessibility & Inclusive Design"
     paths:
-      - "**/components/**/*.{js,ts,tsx}"
-      - "**/ui/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -1347,10 +1329,6 @@ topics:
 
   - name: "Internationalization & Localization"
     paths:
-      - "**/i18n/**/*.{js,ts,tsx}"
-      - "**/locales/**/*.{js,ts,tsx}"
-      - "**/translations/**/*.{js,ts,tsx}"
-      - "**/lang/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -1476,8 +1454,6 @@ topics:
 
   - name: "Animations & Gesture Handling"
     paths:
-      - "**/components/**/*.{js,ts,tsx}"
-      - "**/ui/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -1570,9 +1546,6 @@ topics:
 
   - name: "Error Handling & Monitoring"
     paths:
-      - "**/services/**/*.{js,ts,tsx}"
-      - "**/utils/**/*.{js,ts,tsx}"
-      - "**/helpers/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
@@ -1895,8 +1868,6 @@ topics:
       - "**/*.tsx"
       - "README.md"
       - "**/docs/**/*.{md,js,ts}"
-      - "**/stories/**/*.{js,ts,tsx}"
-      - "**/src/stories/**/*.{js,ts,tsx}"
       - ".storybook/**/*.{js,ts,json}"
     policies:
       - title: Use JSDoc or TSDoc for Function and Component Documentation
@@ -2008,9 +1979,6 @@ topics:
 
   - name: "Analytics & User Insights"
     paths:
-      - "**/services/**/*.{js,ts,tsx}"
-      - "**/hooks/**/*.{js,ts,tsx}"
-      - "**/analytics/**/*.{js,ts,tsx}"
       - "**/*.js"
       - "**/*.ts"
       - "**/*.tsx"
